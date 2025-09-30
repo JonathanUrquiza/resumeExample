@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página personal - Jonathan Javier Urquiza</title>
+    <meta name="description" content="Página personal de Jonathan Javier Urquiza, desarrollador web y estudiante de análisis de sistemas">
+    <meta name="author" content="Jonathan Javier Urquiza">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #666;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #f0f0f0;
+        }
+        section, article {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #333;
+            color: #666;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado principal -->
+        <header>
+            <h1>Jonathan Javier Urquiza</h1>
+            <p>Desarrollador Web y Estudiante de Análisis de Sistemas</p>
+            
+            <!-- Menú de navegación -->
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Contenido principal -->
+        <main>
+            <!-- Sección de Presentación -->
+            <section id="sobre-mi">
+                <h2>Sobre mí</h2>
+                <p>Hola, soy Jonathan Javier Urquiza, un desarrollador web apasionado por la tecnología y el aprendizaje continuo. Actualmente estoy estudiando Análisis de Sistemas y me especializo en desarrollo frontend y backend. Me encanta crear soluciones web innovadoras y trabajar en equipo para lograr objetivos comunes.</p>
+                <p>Mi objetivo es seguir creciendo profesionalmente en el área de desarrollo de software, aprendiendo nuevas tecnologías y contribuyendo a proyectos que generen un impacto positivo en la sociedad.</p>
+            </section>
+
+            <!-- Artículo de Hobbies -->
+            <article id="hobbies">
+                <h2>Hobbies</h2>
+                <p>En mi tiempo libre disfruto de varias actividades que me ayudan a mantener un equilibrio entre trabajo y vida personal:</p>
+                <ul>
+                    <li><strong>Programación:</strong> Desarrollar proyectos personales y experimentar con nuevas tecnologías</li>
+                    <li><strong>Lectura:</strong> Libros de tecnología, ciencia ficción y desarrollo personal</li>
+                    <li><strong>Deportes:</strong> Fútbol y running para mantener una vida saludable</li>
+                    <li><strong>Música:</strong> Tocar guitarra y escuchar diferentes géneros musicales</li>
+                    <li><strong>Videojuegos:</strong> Estrategia y juegos de rol para entretenimiento</li>
+                </ul>
+            </article>
+
+            <!-- Imagen -->
+            <section>
+                <h2>Mi Foto</h2>
+                <img src="https://picsum.photos/400/300?random=1" alt="Foto personal de Jonathan Javier Urquiza" title="Jonathan Javier Urquiza">
+                <p><em>Una imagen representativa de mi perfil profesional</em></p>
+            </section>
+
+            <!-- Tabla de Materias -->
+            <section>
+                <h2>Horario de Materias</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Materia</th>
+                            <th>Día de Cursada</th>
+                            <th>Profesor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Programación I</td>
+                            <td>Lunes y Miércoles</td>
+                            <td>Dr. María González</td>
+                        </tr>
+                        <tr>
+                            <td>Base de Datos</td>
+                            <td>Martes y Jueves</td>
+                            <td>Ing. Carlos Rodríguez</td>
+                        </tr>
+                        <tr>
+                            <td>Análisis de Sistemas</td>
+                            <td>Lunes y Viernes</td>
+                            <td>Lic. Ana Martínez</td>
+                        </tr>
+                        <tr>
+                            <td>Matemática Discreta</td>
+                            <td>Martes y Jueves</td>
+                            <td>Prof. Luis Fernández</td>
+                        </tr>
+                        <tr>
+                            <td>Inglés Técnico</td>
+                            <td>Miércoles</td>
+                            <td>Prof. Sarah Johnson</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Formulario de Contacto -->
+            <section id="contacto">
+                <h2>Formulario de Contacto</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                    </div>
+                    
+                    <button type="submit">Enviar Información</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>&copy; 2024 Jonathan Javier Urquiza. Todos los derechos reservados.</p>
+            <p>
+                <a href="https://www.google.com" target="_blank">Google</a> | 
+                <a href="https://www.institutosuperior.com" target="_blank">Instituto Superior</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
